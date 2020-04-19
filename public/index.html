@@ -6,6 +6,23 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- Favicons -->
+    <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
+
   </head>
   <body>
     <noscript>
@@ -13,5 +30,603 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <!-- JavaScript Libraries -->
+    <div id="page-top">
+
+      <!--/ Nav Star /-->
+      <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+        <div class="container">
+          <a class="navbar-brand js-scroll" href="#page-top">智慧码</a>
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+            aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link js-scroll active" href="#home">首页</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll" href="#about">智能园区管理</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll" href="#service">技术方案</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll" href="#work">圳智慧码</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll" href="#blog">公司动态</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--/ Nav End /-->
+    
+      <!--/ Intro Skew Star /-->
+      <div id="home" class="intro route bg-image" style="background-image: url(img/banner_2.jpg)">
+        <div class="overlay-itro"></div>
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container">
+              <!--<p class="display-6 color-d">Hello, world!</p>-->
+              <h1 class="intro-title mb-4">智慧码园区通行</h1>
+              <p class="intro-subtitle"><span class="text-slider-items">人码合一,新型防伪码制,线下、线上鉴权,身份核验</span><strong class="text-slider"></strong></p>
+              <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/ Intro Skew End /-->
+    
+      <section id="about" class="about-mf sect-pt4 route">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <!-- <div class="about-img"> -->
+                      <img src="img/code.png" class="img-fluid rounded b-shadow-a" alt="">
+                    <!-- </div> -->
+                  </div>
+                  <div class="col-md-6">
+                    <div class="about-me pt-4 pt-md-0">
+                      <div class="title-box-2">
+                        <h5 class="title-left">
+                          智慧码介绍 
+                        </h5>
+                      </div>
+                      <p class="lead">
+                        智慧码是雄帝科技依托在可信身份领域具有二十余年的经验和技术优势,创新研发的专门用于数字身份核验的专有安全码制
+                      </p>
+                      <p class="lead">
+                        由“人像+生物特征+文本信息”等构成的多维图形码；智慧码中采用了多项安全技术，在数据加密、隐私保护、身份认证等方面具有高度安全性。
+                      </p>
+                      <p class="lead">
+                        PC/PAD/Phone   全设备支持
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <!--/ Section Services Star /-->
+      <section id="service" class="services-mf route">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="title-box text-center">
+                <h3 class="title-a">
+                  核心技术
+                </h3>
+                <p class="subtitle-a">
+                  以奋斗者为本，尊重、合作、诚信、创新
+                </p>
+                <div class="line-mf"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <span class="ico-circle"><i class="ion-monitor"></i></span>
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">人码合一</h2>
+                  <p class="s-description text-center">
+                    由“人像+生物特征+文本信息”等构成的多维图形码
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <span class="ico-circle"><i class="ion-code-working"></i></span>
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">新型防伪码制</h2>
+                  <p class="s-description text-center">
+                    依托在可信身份领域具有二十余年的经验和技术优势
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <span class="ico-circle"><i class="ion-camera"></i></span>
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">线下、线上鉴权</h2>
+                  <p class="s-description text-center">
+                    可在线、可离线、可视读、可追溯实现线下、线上鉴权
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">身份核验</h2>
+                  <p class="s-description text-center">
+                    集物理证件、二维码、人脸识别等多种身份核验方式的优势于一身
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <span class="ico-circle"><i class="ion-paintbrush"></i></span>
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">一对一定制化</h2>
+                  <p class="s-description text-center">
+                    为客户提供最新的软件升级信息和系统程序补丁信息服务
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <span class="ico-circle"><i class="ion-stats-bars"></i></span>
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">身份在线和离线核验</h2>
+                  <p class="s-description text-center">
+                    有效解决数字身份在线和离线核验的问题。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/ Section Services End /-->
+    
+      <div class="section-counter paralax-mf bg-image" style="background-image: url(img/counters-bg.jpg)">
+        <div class="overlay-mf"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3 col-lg-3">
+              <div class="counter-box">
+                <div class="counter-ico">
+                  <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
+                </div>
+                <div class="counter-num">
+                  <p class="counter">450</p>
+                  <span class="counter-text">今日访问人数</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-lg-3">
+              <div class="counter-box pt-4 pt-md-0">
+                <div class="counter-ico">
+                  <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
+                </div>
+                <div class="counter-num">
+                  <p class="counter">15</p>
+                  <span class="counter-text">覆盖城市</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-lg-3">
+              <div class="counter-box pt-4 pt-md-0">
+                <div class="counter-ico">
+                  <span class="ico-circle"><i class="ion-ios-people"></i></span>
+                </div>
+                <div class="counter-num">
+                  <p class="counter">550</p>
+                  <span class="counter-text">成功合作企业</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-lg-3">
+              <div class="counter-box pt-4 pt-md-0">
+                <div class="counter-ico">
+                  <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
+                </div>
+                <div class="counter-num">
+                  <p class="counter">360</p>
+                  <span class="counter-text">累计专利</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="tlinks"><a href=""  title="网站模板"></a></div>
+      <!--/ Section Portfolio Star /-->
+      <section id="work" class="portfolio-mf sect-pt4 route">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="title-box text-center">
+                <h3 class="title-a">
+                技术解决方案
+                </h3>
+                <p class="subtitle-a">
+                  通过持续的技术创新，依靠雄帝人的智慧和努力，不断探索新型的信息载体解决方案，
+                  满足并创造客户需求，使雄帝成长为世界一流的身份信息综合服务商。
+                </p>
+                <div class="line-mf"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="work-box">
+                <a href="img/work-1.jpg" data-lightbox="gallery-mf">
+                  <div class="work-img">
+                    <img src="img/work-1.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title">公众号定制开发</h2>
+                        <div class="w-more">
+                          <span class="w-ctegory">智慧通行码公众号</span> / <span class="w-date">Customize App</span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="w-like">
+                          <span class="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a href="img/work-3.jpg" data-lightbox="gallery-mf">
+                  <div class="work-img">
+                    <img src="img/work-3.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title">小程序服务</h2>
+                        <div class="w-more">
+                          <span class="w-ctegory">可信码微信小程序</span> / <span class="w-date">Small Program</span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="w-like">
+                          <span class="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a href="img/work-3.jpg" data-lightbox="gallery-mf">
+                  <div class="work-img">
+                    <img src="img/work-3.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title">智慧码园区管理系统</h2>
+                        <div class="w-more">
+                          <span class="w-ctegory">业务系统建设</span> / <span class="w-date">Business System</span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="w-like">
+                          <span class="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a href="img/work-4.jpg" data-lightbox="gallery-mf">
+                  <div class="work-img">
+                    <img src="img/work-4.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title">Andriod应用开发</h2>
+                        <div class="w-more">
+                          <span class="w-ctegory">手机核验智慧码App</span> / <span class="w-date">Andriod App Dev</span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="w-like">
+                          <span class="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a href="img/work-3.jpg" data-lightbox="gallery-mf">
+                  <div class="work-img">
+                    <img src="img/work-3.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title">小程序服务</h2>
+                        <div class="w-more">
+                          <span class="w-ctegory">可信码微信小程序</span> / <span class="w-date">Small Program</span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="w-like">
+                          <span class="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a href="img/work-3.jpg" data-lightbox="gallery-mf">
+                  <div class="work-img">
+                    <img src="img/work-3.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title">小程序服务</h2>
+                        <div class="w-more">
+                          <span class="w-ctegory">可信码微信小程序</span> / <span class="w-date">Small Program</span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="w-like">
+                          <span class="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <!--/ Section Portfolio End /-->
+    
+      <!--/ Section Testimonials Star /-->
+      <div class="testimonials paralax-mf bg-image" style="background-image: url(img/overlay-bg.jpg)">
+        <div class="overlay-mf"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div id="testimonial-mf" class="owl-carousel owl-theme">
+                <div class="testimonial-box">
+                  <div class="author-test">
+                    <img style="width: 150px;height: 150px;" src="img/qiye.png" alt="" class="rounded-circle b-shadow-a">
+                    <span class="author">公司简介</span>
+                  </div>
+                  <div class="content-test">
+                    <p class="description lead">
+                      深圳市雄帝科技股份有限公司（以下简称:雄帝科技，股票代码:300546）成立于1995年，是领先的身份信息综合服务商，
+                      为国内外政府、机构及行业用户提供以身份信息可信技术为核心的多维身份识别、智慧公共服务、智能物联及大数据服务。
+                    </p>
+                    <span class="comit"><i class="fa fa-quote-right"></i></span>
+                  </div>
+                </div>
+                <div class="testimonial-box">
+                  <div class="author-test">
+                    <img style="width: 150px;height: 150px;" src="img/hezuo.png" alt="" class="rounded-circle b-shadow-a">
+                    <span class="author">公司荣誉</span>
+                  </div>
+                  <div class="content-test">
+                    <p class="description lead">
+                      2014“中国中小企业优秀创新成果企业”，董事长高晶荣获“中国中小企业十大成长之星”称号，“安全证卡自动化生产线系统”被评为“2014年中国中小企业创新100强；
+                      公司的3D打印机成功入围2014年国际智能卡行业的“奥斯卡奖”SESAMES AWARDS “生产制造与测试”和“硬件”两个大奖单元。
+                    </p>
+                    <span class="comit"><i class="fa fa-quote-right"></i></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!--/ Section Blog Star /-->
+      <section id="blog" class="blog-mf sect-pt4 route">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="title-box text-center">
+                <h3 class="title-a">
+                  新闻动态
+                </h3>
+                <p class="subtitle-a">
+                  让身份识别更安全、更智慧、更有价值！
+                </p>
+                <div class="line-mf"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card card-blog">
+                <div class="card-img">
+                  <a href="blog-single.html"><img src="img/post-3.jpg" alt="" class="img-fluid"></a>
+                </div>
+                <div class="card-body">
+                  <div class="card-category-box">
+                    <div class="card-category">
+                      <h6 class="category">新闻</h6>
+                    </div>
+                  </div>
+                  <h3 class="card-title"><a href="img/testimonial-2.jpg">中国中小企业优秀创新成果企业</a></h3>
+                  <p class="card-description">
+                    2014“中国中小企业优秀创新成果企业”，董事长高晶荣获“中国中小企业十大成长之星”称号，“安全证卡自动化生产线系统”被评为“2014年中国中小企业创新100强；
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <div class="post-author">
+                    <a href="#">
+                      <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                      <span class="author">深圳日报</span>
+                    </a>
+                  </div>
+                  <div class="post-date">
+                    <span class="ion-ios-clock-outline"></span> 2020/04/20
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-blog">
+                <div class="card-img">
+                  <a href="blog-single.html"><img src="img/post-3.jpg" alt="" class="img-fluid"></a>
+                </div>
+                <div class="card-body">
+                  <div class="card-category-box">
+                    <div class="card-category">
+                      <h6 class="category">新闻</h6>
+                    </div>
+                  </div>
+                  <h3 class="card-title"><a href="img/testimonial-2.jpg">中国中小企业优秀创新成果企业</a></h3>
+                  <p class="card-description">
+                    2014“中国中小企业优秀创新成果企业”，董事长高晶荣获“中国中小企业十大成长之星”称号，“安全证卡自动化生产线系统”被评为“2014年中国中小企业创新100强；
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <div class="post-author">
+                    <a href="#">
+                      <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                      <span class="author">深圳日报</span>
+                    </a>
+                  </div>
+                  <div class="post-date">
+                    <span class="ion-ios-clock-outline"></span> 2020/04/20
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-blog">
+                <div class="card-img">
+                  <a href="blog-single.html"><img src="img/post-3.jpg" alt="" class="img-fluid"></a>
+                </div>
+                <div class="card-body">
+                  <div class="card-category-box">
+                    <div class="card-category">
+                      <h6 class="category">新闻</h6>
+                    </div>
+                  </div>
+                  <h3 class="card-title"><a href="img/testimonial-2.jpg">中国中小企业优秀创新成果企业</a></h3>
+                  <p class="card-description">
+                    2014“中国中小企业优秀创新成果企业”，董事长高晶荣获“中国中小企业十大成长之星”称号，“安全证卡自动化生产线系统”被评为“2014年中国中小企业创新100强；
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <div class="post-author">
+                    <a href="#">
+                      <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                      <span class="author">深圳日报</span>
+                    </a>
+                  </div>
+                  <div class="post-date">
+                    <span class="ion-ios-clock-outline"></span> 2020/04/20
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/ Section Blog End /-->
+    
+      <!--/ Section Contact-Footer Star /-->
+      <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
+       
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="copyright-box">
+                  <p class="copyright">&copy; Copyright <strong>雄帝科技</strong>. All Rights Reserved</p>
+                  <div class="credits">More Templates <a href="" target="_blank" title="雄帝科技">雄帝科技</a> - Collect from <a href="" title="雄帝科技" target="_blank">雄帝科技</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </section>
+      <!--/ Section Contact-footer End /-->
+    
+      <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+      <div id="preloader"></div>
+    
+      <!-- JavaScript Libraries -->
+      <script src="lib/jquery/jquery.min.js"></script>
+      <script src="lib/jquery/jquery-migrate.min.js"></script>
+      <script src="lib/popper/popper.min.js"></script>
+      <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+      <script src="lib/easing/easing.min.js"></script>
+      <script src="lib/counterup/jquery.waypoints.min.js"></script>
+      <script src="lib/counterup/jquery.counterup.js"></script>
+      <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+      <script src="lib/lightbox/js/lightbox.min.js"></script>
+      <script src="lib/typed/typed.min.js"></script>
+      <!-- Contact Form JavaScript File -->
+      <script src="contactform/contactform.js"></script>
+    
+      <!-- Template Main Javascript File -->
+      <script src="js/main.js"></script>
+    
+    </div>
   </body>
 </html>

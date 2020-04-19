@@ -12,14 +12,14 @@ Vue.config.productionTip = false
 import VuePreview from 'vue-preview';
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
-import store from './store'
+// import store from './store'
 import router from './router'
 
 import '@/permission' // permission control
 Vue.use(ElementUI);
 Vue.use(VuePreview);
 new Vue({
-  store,
+  // store,
   router,
   render: h => h(App),
 }).$mount('#app')
